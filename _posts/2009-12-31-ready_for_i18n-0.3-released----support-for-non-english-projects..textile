@@ -7,7 +7,7 @@ h1. {{ page.title }}
 
 p(meta). 31 Dec 2009 - Beijing
 
-In the initial version of ready_for_i18n("Introduced here":http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html), We had a assumption that the locale of your project to be extracted is English, therefore the key in the dictionary file can be just come from the literal word. But there are also so many non-english local projects that need to be internationalized. So we come out an idea to introduce a simple key-text mapping mechanism. Still simply using one command of @ready_for_i18n@ and follow these steps to get you non-english project ready for i18n.
+In the initial version of ready_for_i18n("Introduced here":http://zigzag.github.com/2009/12/17/get-your-local-rails-application-ready-for-i18n.html), We had an assumption that the locale of your project to be extracted is English, therefore the key in the dictionary file can be just come from the literal word. But there are also so many non-english local projects that need to be internationalized. So we come out an idea to introduce a simple key-text mapping mechanism. Still simply using one command of @ready_for_i18n@ and follow these steps to get you non-english project ready for i18n.
 
 _(Assuming you are in the @app/views@ directory of your rails project.)_
 
