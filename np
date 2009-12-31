@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 unless ARGV[0]
   puts 'Usage: np "the post title"'
