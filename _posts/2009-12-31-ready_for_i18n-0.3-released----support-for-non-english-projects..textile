@@ -13,7 +13,7 @@ _(Assuming you are in the @app/views@ directory of your rails project.)_
 
 # Using @ready_for_i18n . --nokey > cn.txt@ to extract all text and label in your views.
 # Open the _cn.txt_ and go for "google translate":http://translate.google.com/ (or other tools you like or do it manually) then paste the result in a new file called _en.txt_ with the following cautions -- (Do NOT change anything in _cn.txt_ but you can change the translated en.txt just remember keeping the same line number of _en.txt_ with _cn.txt_).
-# Using @ready_for_i18n . . --keymap=cn.txt:en.txt > cn.yml@ Then all your views will be replaced to an i18ned version and the generated _cn.yml_ dictionary file will using the keys from _en.txt_ and values from _cn.txt_.
+# Using @ready_for_i18n . . --keymap=cn.txt:en.txt > cn.yml@ Then all your views will be replaced to an i18ned version and the generated _cn.yml_ dictionary file will use the keys from _en.txt_ and values from _cn.txt_.
 
 That is it. It is a bit more steps than extracting the English project, but still simple enough, right?
 Besides, if you do not satisfied with the default simple key mapping for your English local project, you can also using this way to change you key mapping as your will.
