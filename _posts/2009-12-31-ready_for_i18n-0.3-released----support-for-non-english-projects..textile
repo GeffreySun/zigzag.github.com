@@ -20,7 +20,7 @@ Besides, if you do not satisfied with the default simple key mapping for your En
 
 The "0.3 version of ready_for_i18n":http://www.gemcutter.org/gems/ready_for_i18n also contain some bug fixes and the following enhancements:
 
-* Support for a Dry run mode -- Just using one parameter for your view path, then @ready_for_i18n@ will do not replace any of your view files but just generate an dictionary file to STDOUT. You can redirect this out to file as you want. 
+* Support for a Dry run mode -- Just using one parameter for your view path, then @ready_for_i18n@ will not replace any of your view files but just generate an dictionary file to STDOUT. You can redirect this out to file as you want. 
 * Support a lazy-lookup(explained as the following screenshot-> clipped from "Rails i18n guide":http://guides.rubyonrails.org/i18n.html#looking-up-translations) extracting that will help you generate a more structured dictionary file. Just using @--dot@ options in the @ready_for_i18n@ command.
 
 !/images/lazy_lookup.png(lazy-lookup)!
