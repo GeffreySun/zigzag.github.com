@@ -166,10 +166,11 @@ ul.posts {
   }
 
   #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
+    border: 1px dotted rgb(136, 136, 136);
+    background: rgb(255, 255, 136);
     font-size: 95%;
     padding: 0 .2em;
+    display: inline-block;
   }
 
     #post pre code {
