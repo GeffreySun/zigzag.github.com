@@ -28,7 +28,7 @@ In rails 2.x there are no support in the core framework to change the scaffold t
 I anticipated the scaffold generator would become smarter in Rails 3 just like using some options like --type=JSON then the generated result will be changed.
 But the magic did not happen. I called for help in IRC #railsbridge and "josevalim":http://github.com/josevalim told me a easy way to customize my own generating template:
 Just make a copy of the template at 
-@rails/railties/lib/rails/generators/rails/scaffold_controller/templates@ ("github link":http://github.com/rails/rails/blob/master/railties/lib/rails/generators/rails/scaffold_controller/templates/controller.rb) to
+@rails/railties/lib/rails/generators/rails/scaffold_controller/templates@ ("or it's github link":http://github.com/rails/rails/blob/master/railties/lib/generators/rails/scaffold_controller/templates/controller.rb) to
 @RAILS_ROOT/lib/templates/rails/scaffold_controller/controller.rb@
 The code in template is look like
 
