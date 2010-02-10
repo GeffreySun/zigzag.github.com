@@ -7,7 +7,7 @@ h1. {{ page.title }}
 
 p(meta). 18 Jan 2010 - Beijing
 
-In the weekend of "BugMash for Rails3":http://www.bugmash.com/. I planned to make a experiment of a "showcase using Rails3 and the new released jQuery 1.4":http://github.com/zigzag/iFUO. Rails3 in this experiment would act as a back-end service provider using JSON and the UI stuff would be all handled by jQuery. Therefore making a scaffold generating will save my time for just exposing my simple models in the JSON format.
+In the weekend of "BugMash for Rails3":http://www.bugmash.com/. I planned to make a experiment of a "showcase using Rails3 and the new released jQuery 1.4":http://github.com/zigzag/iTBD. Rails3 in this experiment would act as a back-end service provider using JSON and the UI stuff would be all handled by jQuery. Therefore making a scaffold generating will save my time for just exposing my simple models in the JSON format.
 
 After the generating, the controller code is look like:
 
