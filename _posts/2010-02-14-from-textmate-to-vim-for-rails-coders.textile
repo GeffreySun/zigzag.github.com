@@ -7,25 +7,27 @@ h1. {{ page.title }}
 
 p(meta). 14 Feb 2010 - GuangXi, China
 
-When started coding in Rails, I chose TextMate as my editor because it seems to be the most popular one among the Rails community and it is really amazing as showed in the fantastic "RailsCasts from Ryan Bate":http://railscasts.com .  
+When started coding in Rails, I chose TextMate as my editor because it seems amazing as showed in the fantastic "RailsCasts from Ryan Bate":http://railscasts.com .  
 
-The journey ramping up the learning curve of Rails with TextMate was very delightful. I continued using it in several projects and became familiar with it until one day I had to give off my lovely Mac Book and fall back to a Windows laptop. During the period waiting for my next Mac, I need to write Rails code without TextMate.
+Indeed the journey ramping up the learning curve of Rails with TextMate was very delightful. I continued using it in several projects and became familiar with it until one day I had to give off my beloved Mac Book and fall back to a Windows laptop. During the period waiting for my next Mac, I need to write Rails code without TextMate.
 
-Developing Rails on Windows is a miserable experience for me. Therefore I rather chose to SSH my remote Linux box with PUTTY instead of using GUI IDEs. I used to script shell in VI but for daily coding, VIM seems better.
+Developing Rails on Windows is a miserable experience for me. Therefore I rather chose to SSH my remote Linux box with PUTTY instead of using any windows GUI IDE. I used to write script in VI on Linux but for daily rails coding, VIM with some plugins would be better.
 
-Days after I switched from TextMate, I found myself even more efficient and comfortable working with VIM.
+Days after I switched from TextMate, I found myself even more efficient and comfortable working with VIM, especially at the points I list below: 
 
-h2. The mouse is not needed any more.
+h2. The mouse is not needed anymore.
 
 For full keyboarder. Even the Columnar editing works better.
 
-h2. I don't miss the Project Drawer and the File's Tab
+h2. I don't miss the Project Drawer 
 
 Fuzzy finder and gf. window splitting. 
 
+h2. I don't miss the File's Tab
+
 h2. Project searching...
 
-h2. Snippet.
+h2. Partial Extracting and Snippet.
 
 h2. Conclusion
 Work with out a GUI editor is a good news. 
