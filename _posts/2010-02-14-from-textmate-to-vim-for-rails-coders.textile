@@ -49,3 +49,12 @@ I thought the Snippets come with different bundles as the killer feature of Text
 h2. Conclusion
 
 There are still a lot of detail differences between these two excellent editors that I did not list here. But the overall experience for me of switching from TextMate to VIM is exciting. Especially imagine that in the near future, I can bring out my iPad + Wireless Keyboard and go on hacking code quickly with TouchTerm(A SSH client App for iPhone) + VIM... Doesn't it cool enough? Any comments are welcomed here or tweet me "@zigzagchen":http://twitter.com/zigzagchen. 
+
+h2. Resource
+
+# "rails.vim : Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more":http://www.vim.org/scripts/script.php?script_id=1567
+# "The NERD tree : A tree explorer plugin for navigating the filesystem":http://www.vim.org/scripts/script.php?script_id=1658
+# "snipMate : TextMate-style snippets for Vim":http://www.vim.org/scripts/script.php?script_id=2540
+# "My .vim setting on Github":http://github.com/zigzag/dotvim
+# "From TextMate to Vim -- annother post in the same topic":http://www.artfulcode.net/articles/from-textmate-to-vim/
+# "Vim for TextMate Fans -- same topic with a screenshoot":http://alexyoung.org/2006/10/22/vim-for-textmate-fans/
