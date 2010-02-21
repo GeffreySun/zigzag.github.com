@@ -52,9 +52,9 @@ There are still a lot of detail differences between these two excellent editors 
 
 h2. Resource
 
-# "rails.vim : Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more":http://www.vim.org/scripts/script.php?script_id=1567
-# "The NERD tree : A tree explorer plugin for navigating the filesystem":http://www.vim.org/scripts/script.php?script_id=1658
-# "snipMate : TextMate-style snippets for Vim":http://www.vim.org/scripts/script.php?script_id=2540
-# "My .vim setting on Github":http://github.com/zigzag/dotvim
-# "From TextMate to Vim -- annother post in the same topic":http://www.artfulcode.net/articles/from-textmate-to-vim/
-# "Vim for TextMate Fans -- same topic with a screenshoot":http://alexyoung.org/2006/10/22/vim-for-textmate-fans/
+# "rails.vim":http://www.vim.org/scripts/script.php?script_id=1567 -- Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more#
+# "The NERDtree":http://www.vim.org/scripts/script.php?script_id=1658 -- A tree explorer plugin for navigating the filesystem.
+# "snipMate":http://www.vim.org/scripts/script.php?script_id=2540 -- TextMate-style snippets for Vim.
+# "Zigzag's .vim setting":http://github.com/zigzag/dotvim -- My VIM setting repository on GitHub.
+# "From TextMate to Vim":http://www.artfulcode.net/articles/from-textmate-to-vim/ -- Annother post in the same topic.
+# "Vim for TextMate Fans":http://alexyoung.org/2006/10/22/vim-for-textmate-fans/ -- Same topic with a screenshoot
