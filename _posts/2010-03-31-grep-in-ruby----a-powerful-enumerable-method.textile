@@ -7,16 +7,15 @@ h1. {{ page.title }}
 
 p(meta). 31 Mar 2010 - ZhuHai
 
-If you were a Unix shell fun, I bed that the "grep" command would be in your top-used list. But as for the Ruby programming, are you still prefer "grep" to the other methods come with the "Enumerable" module?
-Do you know that in most of the situation, using "grep" is more handy and powerful than the commonly used "map" or "select" methods?
-I will try to unveil the power of "grep" method in this post.
+If you were a Unix shell fan, I bed that the "grep" command would be in your top-used list. But as for the Ruby programming, are you still prefer "grep" to the other methods come with the "Enumerable" module?
+Do you know in most of the situation, using "grep" is more handy and powerful than the commonly used "map" or "select" methods? I will try to unveil the power of "grep" method in this post.
 
-First of all, let's review what @grep@ do for an Enumerable object:
+First of all, let's review what "grep" do for an Enumerable object:
 (Quoted from the Rdoc document of Ruby)
 
 bq. enum.grep(pattern)                   => array 
     enum.grep(pattern) {| obj | block }  => array 
-    Returns an array of every element in <i>enum</i> for which <code>Pattern === element</code>.
+    Returns an array of every element in <i>enum</i> for which Pattern === element.
     If the optional <em>block</em> is supplied, each matching element is passed to it, and the block's result is stored in the output array.  
 
 Simple enough,right? Here I will show you some convenient use cases:
@@ -41,12 +40,12 @@ But after we get familiar with the "grep" method and convention of the Regexp, w
 h3. Selective bulk transforming - combination of "select" and "map"
 
 Among the Ruby methods of Enumerable, normally we use "select" for filtering and use "map" for bulk transforming. But as the examples showed before, the "grep" method can act as a combination of those two methods. Here it is called "selective bulk transforming". A simple example is to pickup the numeric string and transfer them into Integer instance. See the following two version for comparison: 
-# ['a','1','b','2'].select{|x| /^\d*$/ === x}.map{|x| x.to_i} 
-# ['a','1','b','2'].grep(/^\d*$/){|x| x.to_i}
+# @['a','1','b','2'].select{|x| /^\d*$/ === x}.map{|x| x.to_i}@ 
+# @['a','1','b','2'].grep(/^\d*$/){|x| x.to_i}@
 
-Or, even we make them shorter by the @&symbol@ block, the version using "grep" looks more lovely:
-# ['a','1','b','2'].select{|x| /^\d*$/ === x}.map(&:to_i)
-# ['a','1','b','2'].grep(/^\d*$/,&:to_i)
+Or, even we make them shorter by the &symbol block, the version using "grep" looks more lovely:
+# @['a','1','b','2'].select{|x| /^\d*$/ === x}.map(&:to_i)@
+# @['a','1','b','2'].grep(/^\d*$/,&:to_i)@
 
 h3. Conclusion
 
