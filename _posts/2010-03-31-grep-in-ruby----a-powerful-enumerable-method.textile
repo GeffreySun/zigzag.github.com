@@ -13,7 +13,7 @@ Do you know in most of the situation, using "grep" is more handy and powerful th
 First of all, let's review what "grep" do for an Enumerable object:
 (Quoted from the Rdoc document of Ruby)
 
-{% highlight ruby %}
+{% highlight %}
     enum.grep(pattern)                   => array 
     enum.grep(pattern) {| obj | block }  => array 
     Returns an array of every element in enum for which Pattern === element.
