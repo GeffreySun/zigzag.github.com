@@ -17,7 +17,8 @@ First of all, let's review what "grep" do for an Enumerable object:
     enum.grep(pattern)                   => array 
     enum.grep(pattern) {| obj | block }  => array 
     Returns an array of every element in enum for which Pattern === element.
-    If the optional <em>block</em> is supplied, each matching element is passed to it, and the block's result is stored in the output array.  
+    If the optional block is supplied, each matching element is passed to it,
+    and the block's result is stored in the output array.  
 {% endhighlight %}
 
 Simple enough,right? Here I will show you some convenient use cases:
@@ -40,7 +41,7 @@ Without thinking it too much, we can achieve this goal by combining the "select"
 
 h3. Selective bulk transforming - combination of "select" and "map"
 
-Among the Ruby methods of Enumerable, normally we use "select" for filtering and use "map" for bulk transforming. But as the examples showed before, the "grep" method can act as a combination of those two methods. Here it is called "selective bulk transforming". A simple example is to pickup the numeric string and transfer them into Integer instance. See the following two version for comparison: 
+Among the Ruby methods of Enumerable, normally we use "select" for filtering and use "map" for bulk transforming. But as the examples showed before, the "grep" method can act as a combination of those two methods. Here it is called "selective bulk transforming". A simple example is to pickup the numeric string and transfer them into Integer instances. See the following two versions for comparison: 
 # @['a','1','b','2'].select{|x| /^\d*$/ === x}.map{|x| x.to_i}@ 
 # @['a','1','b','2'].grep(/^\d*$/){|x| x.to_i}@
 
