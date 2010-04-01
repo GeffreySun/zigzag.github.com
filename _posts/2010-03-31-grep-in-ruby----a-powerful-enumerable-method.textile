@@ -26,7 +26,7 @@ Simple enough,right? Here I will show you some convenient use cases:
 h3. Simpler select - Filtering by pattern matching rather than giving a block to "select".
 
 Most of the time, we use the "select" method for filtering the elements in an Enumerable object by giving a block as criterion. Such as using @['a','1','b'].select{|x| /^\d*$/ === x}@ to filter out the numeric string. But by applying "grep" method with a Regexp pattern instead of a block, we get a shorter version: @['a','1','b'].grep(/^\d*$/)@. This shortcut not only works for the RegExp pattern matching, But also works for all objects that overwrote the "===" method. Such as "Range" and "Class". Therefore we can easily filter out elements like:
-* @[1,10,100,1000].grep(1..100) # => [1, 10]@
+* @[1,10,100,1000].grep(1..100) # => [1, 10, 100]@
 * @[1,'a',2,'b'].grep(Integer) # => [1,2]@
 
 It is very easy to customize your filtering as well, just have you categorization logic defined as case equal("===") in your own class, then the instances of that class can be easily filtered out from an Enumerable object using the "grep" method.
